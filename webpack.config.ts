@@ -7,7 +7,7 @@ const dotenv = require('dotenv')
 
 dotenv.config()
 
-const repo = 'ts-partnercalc'
+const repo = process.env.REPO_NAME
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
