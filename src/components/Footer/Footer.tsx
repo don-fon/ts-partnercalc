@@ -20,7 +20,7 @@ export function Footer() {
                 <Tooltip title="Discord" placement="top">
                     <IconButton size="medium" component="a" href="https://discord.com/users/492781599126061066" target="_blank">
                         <Icon className={styles.iconRoot}>
-                            <img className={styles.icon} src="/Discord-Logo-White.svg" />
+                            <img className={styles.icon} src="Discord-Logo-White.svg" />
                         </Icon>
                     </IconButton>
                 </Tooltip>

@@ -98,9 +98,9 @@ export function App() {
                 <AppBar className={styles.appbar}>
                     <Toolbar>
                         <div className={styles.logo} onClick={goHome}>
-                            <img src="/logo.png" />
+                            <img src="logo.png" />
                             <Typography variant="h5" textAlign="center">
-                                舞伴计算
+                                partnercalc
                             </Typography>
                         </div>
                     </Toolbar>
