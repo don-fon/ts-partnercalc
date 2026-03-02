@@ -31,6 +31,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
+          NODE_ENV: production
           FFLOGS_API_KEY: ${{ secrets.FFLOGS_API_KEY }}
           FFLOGS_API_URL: ${{ vars.FFLOGS_API_URL }}
           ETRO_API_URL: ${{ vars.ETRO_API_URL }}
